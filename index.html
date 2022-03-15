@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+  
+<!-- Mirrored from robotics.ovh/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Mar 2022 06:19:27 GMT -->
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!-- The above 3 meta tags must come first in the head; any other head content comes after -->
+<meta name="theme-color" content="#B1ADAC">
+<title>Robotics | Robot dance</title>
+<meta name="description" content="Dancing robots you can fling">
+<meta name="keywords" content="robot dance, fun, game">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="index.html">
+
+<!-- META Open Graph -->
+<meta property="og:url" content="index.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Robotics.ovh">
+<meta property="og:image" content="img/social.jpg">
+<meta property="og:description" content="If you don't want a generation of robots, fund the arts! - Cath Crowley">
+<meta property="og:site_name" content="Robotics">
+
+<!-- META Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="index.html">
+<meta name="twitter:title" content="Robotics.ovh">
+<meta name="twitter:description" content="If you don't want a generation of robots, fund the arts! - Cath Crowley">
+<meta name="twitter:image" content="img/social.jpg">
+
+<!-- For IE 11, Chrome, Firefox, Safari, Opera -->
+<!-- <link rel="icon" href="path/fav/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="path/fav/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="path/fav/favicon-96x96.png" sizes="96x96" type="image/png">
+<link rel="icon" href="path/fav/favicon-192x192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" sizes="57x57" href="path/fav/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="152x152" href="path/fav/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="path/fav/apple-touch-icon-180x180.png"> -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com/">
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+<style>
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;    
+}
+
+html {
+	overflow: hidden;
+}
+
+body {
+	position: absolute;
+	font-size: 14px;
+	font-family: 'Orbitron', sans-serif;
+	color: #383735;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background: #AEAAA7;
+	cursor: move;
+	cursor: grab;
+	cursor: -moz-grabbing;
+	cursor: -webkit-grabbing;
+}
+
+canvas {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url("img/fond.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+a {
+	outline: none;
+	color: #383735;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #383735;
+}
+
+.logo {
+position: fixed;
+left: 16px;
+top: 15px;
+}
+
+.more {
+position: fixed;
+left: 0;
+bottom: 40%;
+height: 100px;
+width: 120px;
+display: none;
+z-index: 10;
+}
+
+#share {
+position: fixed;
+right: 20px;
+bottom: 20px;
+opacity: 0.8;
+z-index: 10;
+}
+
+.foot {
+position: fixed;
+text-align: left;
+left: 10px;
+bottom: 0px;
+z-index: 10;
+}
+
+.share-btn {
+position: fixed;
+text-align: right;
+right: 10px;
+bottom: 5px;
+z-index: 10;
+}
+
+</style>
+
+<!-- JavaScript -->
+<script src="script.html"></script>
+
+<!-- analytics -->
+<script async defer data-domain="robotics.ovh" src="../plausible.io/js/plausible.js"></script>
+
+
+   </head>
+
+   <body>
+
+<audio id="musica" autoplay>
+   <source src="sounds/music190_ending.mp3" type="audio/mpeg">
+</audio>
+
+
+
+<a href="https://hipstersound.com/ambience.html" rel="nofollow"><img class="more" id="show" src="img/more.png" alt=""></a>
+<script type="text/javascript">window.setTimeout("document.getElementById('show').style.display='inline';", 79000); </script> <!-- www.webmasterworld.com/javascript/3322852.htm code by Trace -->
+
+
+<!-- Share buttons by Cubecamp.ru  www.cubecamp.ru/articles/share/cubecamp.html -->
+<div style="cursor: pointer;" class="share-btn" data-url="https://robotics.ovh" data-title="Robotics" data-desc="Dancing robots you can fling">
+	<!-- <a data-id="vk"><i class="fa fa-vk fa-fw"></i></a> -->
+	<a data-id="tw"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a>	
+	<a data-id="fb"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a>	
+	<a data-id="in"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a>	
+</div>
+
+
+<div class="foot">
+<p><a href="credits.html" target="_blank">Credits and attributions</a> | 2021 Robotics.ovh</p>
+</div>
+
+<!-- Thanks to Paul Becker for the code: https://stackoverflow.com/questions/50490304/audio-autoplay-not-working-in-chrome	 -->	
+<script>
+document.addEventListener('click', musicPlay);
+function musicPlay() {
+    document.getElementById('musica').play();
+    document.removeEventListener('click', musicPlay);
+}
+</script>
+
+<script src="rob/index.js"></script>
+<script type="text/javascript" src="js/share.js"></script>
+
+<!-- Font awesome -->
+<link rel="stylesheet" href="../cdn.jsdelivr.net/npm/font-awesome%404.7.0/css/font-awesome.min.css">
+
+<script type="text/javascript" src="sounds/audio.js"></script>
+   </body>
+
+<!-- Mirrored from robotics.ovh/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Mar 2022 06:19:31 GMT -->
+</html>
